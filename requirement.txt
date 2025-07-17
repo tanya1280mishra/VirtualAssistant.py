@@ -1,0 +1,22 @@
+# Voice Recognition
+SpeechRecognition==3.10.0
+
+# Text-to-Speech
+gTTS==2.5.1
+
+# Audio Handling
+pydub==0.25.1
+
+# Fallback if using playsound (not recommended on Wayland)
+# playsound==1.3.0
+
+# Optional for type checking or runtime environment
+pycairo==1.25.0
+
+# If using subprocess-based audio playback (ffplay), no extra lib needed here
+
+# Optional: for recording mic (if using PyAudio)
+pyaudio==0.2.14
+
+# Optional: if running Streamlit GUI (if extended in future)
+# streamlit==1.35.0
